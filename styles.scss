@@ -1,0 +1,33 @@
+
+$board-size: 600px;
+$board-cell-elements: 50;
+
+body{
+  background: #EFE7E6;
+}
+.container{
+  width:$board-size;
+  height:$board-size;
+  margin: 40px auto;
+  background: #0EAFEA;
+  position: relative;
+}
+
+.cell {
+  position: absolute;
+  background-size: contain;
+  box-sizing: border-box;
+  height: $board-size / $board-cell-elements;
+  width: $board-size / $board-cell-elements;
+}
+
+.snake {
+  background-color: #68E800;
+  &.head{
+    background-color: #0000FF;
+  }
+}
+
+.food {
+  background-color: #770F03;
+}

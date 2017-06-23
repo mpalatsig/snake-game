@@ -1,0 +1,1 @@
+body{background:#EFE7E6}.container{width:600px;height:600px;margin:40px auto;background:#0EAFEA;position:relative}.cell{position:absolute;background-size:contain;box-sizing:border-box;height:12px;width:12px}.snake{background-color:#68E800}.snake.head{background-color:#0000FF}.food{background-color:#770F03}
